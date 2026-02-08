@@ -1,0 +1,145 @@
+ .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header-with-dropdown {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .section-label {
+            color: #ff6347;
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+
+        .section-label::before {
+            content: '— ';
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .dropdown-button {
+            background: transparent;
+            border: 1px solid #333;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .collections-grid {
+            display: flex;
+            gap: 20px;
+        }
+
+        .collection-card {
+            background: #111;
+            border-radius: 12px;
+            padding: 15px;
+            width: 350px;
+        }
+
+        .collection-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .collection-creator {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .creator-avatar-small {
+            width: 40px;
+            height: 40px;
+        }
+
+        .creator-avatar-small img {
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+
+        .collection-label {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .collection-count {
+            font-size: 11px;
+            color: #888;
+        }
+
+        .bookmark-btn {
+            width: 30px;
+            height: 30px;
+            background: #222;
+            border: none;
+            border-radius: 6px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .collection-images {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .top-row {
+            display: flex;
+            gap: 8px;
+            height: 180px;
+        }
+
+        .bottom-row {
+            display: flex;
+            gap: 8px;
+            height: 85px;
+        }
+
+        .collection-main-image {
+            flex: 1;
+        }
+
+        .collection-main-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .collection-second-image {
+            flex: 2;
+        }
+
+        .collection-second-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .bottom-row img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .bottom-row > div {
+            flex: 1;
+        }
+        .collection-label{
+            color: yellow;
+        }
